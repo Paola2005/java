@@ -13,4 +13,27 @@ for (let i = 0; i <=10; i++){
     }
 }
 
+
+
+
+
+
+pares=0
+imapres=0
+
+    for (let i = 1; i <=578934; i++){
+
+        if (i%2==0){
+            pares+=i
+            
+            
+        }
+        else{
+            imapres+=i
+        }
+    }
+    console.log(pares)
+    console.log(imapres)
+
+    
 //Desarrolado por: Jenny Paola Velasco Manrique
