@@ -21,7 +21,6 @@ function arreglo(numero, suma) {
     return parejas; // Devuelve el arreglo que contiene las parejas que cumplen con la condición
 }
 
-console.log(arreglo([2, 4, 3, 6, 9, 8], 10)); // Llama a la función con el arreglo [2, 4, 3, 6, 9, 8] y el valor 10 como argumentos, luego imprime el resultado.
-
+console.log(arreglo([2, 4, 3, 6, 9, 8], 10)); 
 
 //Desarrolado por: Jenny Paola Velasco Manrique
