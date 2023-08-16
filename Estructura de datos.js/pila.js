@@ -26,10 +26,33 @@ class stack{
         this.top = null;
         this.size = 0;
     }
+
+    getsize(){
+        return this.size ===0;
+    }
+    isEmpty(){
+        return thid.size === 0;
+    }
     push(value){
         const newNode = new node(value);
         newNode.next = this.top;
         this.top = newNode;
         this.size++;
+    }
+    pop(){
+        if(!this.top()){
+            return "Is empty";
+        }
+        const popedvalue = this.top.value;
+        this.top = this.top.next;
+        this.size--;
+        return this.top.value;
+
+    }
+    peek(){
+        if(!this.top()){
+            return "Is empty";
+        }
+        return this.top.value;
     }
 }
