@@ -1,15 +1,15 @@
-class stack{
-    contructor(){
+class Stack{
+    constructor(){
         this.items = [];
     }
     isEmpty(){//verifica si esta vacio
-        return this.items.length === 0;
+        return this.items.length == 0;
     }
     size(){//retornar tamaño
         return this.items.length;
     }
     clear(){
-        this.items = [];
+        this.items = []
     }
 
     push(item){
@@ -28,13 +28,24 @@ class stack{
         return this.items[this.items.length-1];
     }
 }
-const stack=new Stack
+const stack = new Stack();
 
 stack.push(10);
 stack.push(20);
 stack.push(30);
+
 console.log(stack.peek())
 stack.pop()
 console.log(stack.peek())
 stack.clear()
 console.log(stack.peek())
+
+
+
+//constructor se defininen los atributes de la fila 
+//enqueue es para entrar a la fila
+//dequeue para salir de la fila
+//getsize obtener el tamaño
+//isEnpty si esta vacia o no 
+//peek ver el primer valor de la fila 
+//print imprimir todos los valores de la fila  
