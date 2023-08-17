@@ -18,7 +18,7 @@ const pregunta = () => {
         rl.question("Ingrese la segunda contraseña: ", (p2) => {
             if(!verificar.test(p1)||!verificar.test(p2)){
                 console.clear()
-                console.log("No se permiten mayusculas ni numeros, Ingrese nuevamente las dos palabras") 
+                console.log("No se permiten mayusculas ni numeros y solo se permite una contraseña de 25000 caracteres, Ingrese nuevamente las dos palabras") 
                 pregunta();
             }
             else{
