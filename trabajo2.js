@@ -19,23 +19,24 @@ for (let i = 0; i <=10; i++){
 //################################################################
 
 
-
+//variablles para almacenar los numeros dependiendo del tipo
 pares=0
 imapres=0
 
-    for (let i = 1; i <=578934; i++){
-
+    for (let i = 1; i <=578934; i++){ //se crea una variable dentro del ciclo for 
+            //esa varaible i tiene que ser 1 o menor o igual a 578934 y se le va a ir incrementando
         if (i%2==0){
             pares+=i
-            
+            //si el resultado de i dividido en 2 es 0 entonces se suma a pares
             
         }
         else{
             imapres+=i
+            // si el resultado no es 0 se sume a impares 
         }
     }
     console.log(pares)
-    console.log(imapres)
+    console.log(imapres)//se imprimen las sumas
 
     
 //Desarrolado por: Jenny Paola Velasco Manrique
